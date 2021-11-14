@@ -1,0 +1,2 @@
+dce={addCssForBackgroundUrl:function(element){backgroundUrl=jQuery(element).data("dce-background-url");if(backgroundUrl){jQuery(element).css('background-image','url('+backgroundUrl+')');if(jQuery(element).hasClass("elementor-column")){jQuery(element).find('.elementor-column-wrap').css('background-image','url('+backgroundUrl+')')}
+if(jQuery(element).hasClass("elementor-top-column")){jQuery(element).find('.elementor-widget-wrap').css('background-image','url('+backgroundUrl+')')}}}}
