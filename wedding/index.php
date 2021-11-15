@@ -2039,7 +2039,7 @@
                 </section>
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-78372c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="78372c8" data-element_type="section"
+                    id="rsvp" data-id="78372c8" data-element_type="section"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-background-overlay"></div>
                     <div class="elementor-container elementor-column-gap-default">
@@ -2073,11 +2073,24 @@
                                             data-widget_type="button.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
-                                                    <a href="#rsvp"
+                                                    <a href="#konfirmasipria"
                                                         class="elementor-button-link elementor-button elementor-size-md"
                                                         role="button">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">RSVP</span>
+                                                            <span class="elementor-button-text">Konfirmasi Kehadiran
+                                                                Pria</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a href="#konfirmasiwanita"
+                                                        class="elementor-button-link elementor-button elementor-size-md"
+                                                        role="button">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Konfirmasi Kehadiran
+                                                                Wanita</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -2089,6 +2102,223 @@
                         </div>
                     </div>
                 </section>
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-9108e8f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    id="konfirmasipria" data-id="9108e8f" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6cf7350"
+                                data-id="6cf7350" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-0ea7b9e elementor-widget elementor-widget-heading"
+                                            data-id="0ea7b9e" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Konfirmasi
+                                                    Kehadira Pria</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-92f30bd elementor-widget elementor-widget-gallery"
+                                            data-id="92f30bd" data-element_type="widget"
+                                            data-settings="{&quot;ideal_row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:300,&quot;sizes&quot;:[]},&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;gallery_layout&quot;:&quot;justified&quot;,&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;lazyload&quot;:&quot;yes&quot;,&quot;ideal_row_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;ideal_row_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}"
+                                            data-widget_type="gallery.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-gallery__container">
+                                                    <div
+                                                        class="elementor-lp-form-wrapper elementor-lp-form-display-default elementor-lp-form-button-align-left">
+                                                        <form action="form.php" class="lp-form lp-whatsapp-form"
+                                                            method="POST" name="lp-whatsapp-form-1d0791b">
+                                                            <div class="lp-form-fields-wrapper">
+                                                                <div class="lp-form-field-product">
+                                                                    <label class=""
+                                                                        for="lp-form-product-1d0791b">Informasi
+                                                                        Kehadiran</label>
+                                                                    <select class="lp-form-product"
+                                                                        id="lp-form-product-1d0791b" name="kehadiran">
+                                                                        <option selected="selected" value="Akan Hadir">
+                                                                            Akan
+                                                                            Hadir
+                                                                        </option>
+                                                                        <option value="Mohon Maaf Belum Bisa Hadir">
+                                                                            Mohon
+                                                                            Maaf
+                                                                            Belum
+                                                                            Bisa
+                                                                            Hadir
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="lp-form-field-name">
+                                                                    <label class=""
+                                                                        for="lp-form-name-1d0791b">Nama:</label>
+                                                                    <input class="lp-form-name"
+                                                                        id="lp-form-name-1d0791b" name="name"
+                                                                        placeholder="Nama..." required="1" type="text"
+                                                                        value="">
+                                                                </div>
+                                                                <div class="lp-form-field-address">
+                                                                    <label class=""
+                                                                        for="lp-form-address-1d0791b">Ucapan:</label>
+                                                                    <textarea class="lp-form-address"
+                                                                        id="lp-form-address-1d0791b" name="ucapan"
+                                                                        placeholder="Ucapan Selamat &amp; Doa..."
+                                                                        required="1" rows="4"></textarea>
+                                                                </div>
+                                                                <div class="lp-form-field-extra">
+                                                                    <label class="" for="lp-form-extra-1d0791b">Jumlah
+                                                                        Tamu:</label>
+                                                                    <input class="lp-form-extra"
+                                                                        id="lp-form-extra-1d0791b" name="extra"
+                                                                        placeholder="Jumlah Tamu Yang Hadir..."
+                                                                        required="1" type="text" value="">
+                                                                </div>
+                                                                <div class="lp-form-field-submit">
+                                                                    <input type="submit" class="lp-form-button"
+                                                                        name="submitLaki"
+                                                                        value="Kirim Konfirmasi Kehadiran">
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-9108e8f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    id="konfirmasiwanita" data-id="9108e8f" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6cf7350"
+                                data-id="6cf7350" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-0ea7b9e elementor-widget elementor-widget-heading"
+                                            data-id="0ea7b9e" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Konfirmasi
+                                                    Kehadira Wanita</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-92f30bd elementor-widget elementor-widget-gallery"
+                                            data-id="92f30bd" data-element_type="widget"
+                                            data-settings="{&quot;ideal_row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:300,&quot;sizes&quot;:[]},&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;gallery_layout&quot;:&quot;justified&quot;,&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;lazyload&quot;:&quot;yes&quot;,&quot;ideal_row_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;ideal_row_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}"
+                                            data-widget_type="gallery.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-gallery__container">
+                                                    <div
+                                                        class="elementor-lp-form-wrapper elementor-lp-form-display-default elementor-lp-form-button-align-left">
+                                                        <form class="lp-form lp-whatsapp-form"
+                                                            id="lp-whatsapp-form-1d0791b" action="form.php"
+                                                            method="POST" name="lp-whatsapp-form-1d0791b"
+                                                            enctype="multipart/form-data">
+                                                            <div class="lp-form-fields-wrapper">
+                                                                <div class="lp-form-field-product">
+                                                                    <label class=""
+                                                                        for="lp-form-product-1d0791b">Informasi
+                                                                        Kehadiran</label>
+                                                                    <select class="lp-form-product"
+                                                                        id="lp-form-product-1d0791b" name="kehadiran">
+                                                                        <option selected="selected" value="Akan Hadir">
+                                                                            Akan
+                                                                            Hadir
+                                                                        </option>
+                                                                        <option value="Mohon Maaf Belum Bisa Hadir">
+                                                                            Mohon
+                                                                            Maaf
+                                                                            Belum
+                                                                            Bisa
+                                                                            Hadir
+                                                                        </option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="lp-form-field-name">
+                                                                    <label class=""
+                                                                        for="lp-form-name-1d0791b">Nama:</label>
+                                                                    <input class="lp-form-name"
+                                                                        id="lp-form-name-1d0791b" name="name"
+                                                                        placeholder="Nama..." required="1" type="text"
+                                                                        value="">
+                                                                </div>
+                                                                <div class="lp-form-field-address">
+                                                                    <label class=""
+                                                                        for="lp-form-address-1d0791b">Ucapan:</label>
+                                                                    <textarea class="lp-form-address"
+                                                                        id="lp-form-address-1d0791b" name="ucapan"
+                                                                        placeholder="Ucapan Selamat &amp; Doa..."
+                                                                        required="1" rows="4"></textarea>
+                                                                </div>
+                                                                <div class="lp-form-field-extra">
+                                                                    <label class="" for="lp-form-extra-1d0791b">Jumlah
+                                                                        Tamu:</label>
+                                                                    <input class="lp-form-extra"
+                                                                        id="lp-form-extra-1d0791b" name="extra"
+                                                                        placeholder="Jumlah Tamu Yang Hadir..."
+                                                                        required="1" type="text" value="">
+                                                                </div>
+                                                                <div class="lp-form-field-submit">
+                                                                    <input value="Kirim
+                                                                        Konfirmasi
+                                                                        Kehadiran" class="lp-form-button" name="submit"
+                                                                        type="submit">
+
+                                                                </div>
+                                                            </div>
+                                                        </form>
+
+                                                    </div>
+                                                </div>
+                                                <script>
+                                                (function() {
+                                                    'use strict';
+                                                    window
+                                                        .addEventListener(
+                                                            'load',
+                                                            function() {
+                                                                var wa_form =
+                                                                    document
+                                                                    .getElementById(
+                                                                        'lp-whatsapp-form-1d0791b'
+                                                                    );
+                                                                wa_form
+                                                                    .addEventListener(
+                                                                        'submit',
+                                                                        function(
+                                                                            event
+                                                                        ) {
+                                                                            event
+                                                                                .preventDefault();
+                                                                            event
+                                                                                .stopPropagation();
+                                                                        },
+                                                                        false
+                                                                    );
+                                                            },
+                                                            false
+                                                        );
+                                                })();
+                                                </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-6446e24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="6446e24" data-element_type="section">
